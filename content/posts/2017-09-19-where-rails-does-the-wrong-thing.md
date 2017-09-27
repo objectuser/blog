@@ -12,7 +12,7 @@ values. This was only for things like processing states and the like. I
 still wanted values like keys and dates to be parameterized for DB
 efficiency.
 
-A collegue pointed out that doing queries like this doesn't actually
+A colleague pointed out that doing queries like this doesn't actually
 send parameter markers to the DB:
 
 ```
@@ -65,5 +65,5 @@ By the way, I verified this behavior by looking at the statements that
 Postgres actually receives, not what Rails prints in the logs.
 
 My conclusion is to almost always use the `where(key: value)` form of
-statments and to know that inequalities will have an added performance
+statements and to know that inequalities will have an added performance
 impact.
