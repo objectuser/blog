@@ -4,7 +4,7 @@ date: 2017-09-27T13:00:00-06:00
 ---
 
 I recently needed to partition a large table in Postgres. The table is
-approaching 500M rows. It had a sufficient number of rows that I was not
+approaching 600M rows. It had a sufficient number of rows that I was not
 able to create an index without running out of temporary storage on my
 cloud-hosted server.
 
