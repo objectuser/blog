@@ -1,7 +1,6 @@
 ---
 title: "Git Rebase Like Cherry Pick"
 date: 2017-12-31T16:00:00-06:00
-draft: true
 ---
 
 Sometimes I want to move a commit between branches. This is easy with
